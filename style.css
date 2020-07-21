@@ -71,6 +71,7 @@ html{
     width: 33%;
     align-items: center;
     justify-content: center;
+    font-size: 0.9rem;
 }
 .phone-symbol,.mail-symbol,.location-symbol{
     font-size: 4rem;
@@ -90,10 +91,11 @@ html{
 }
 .location{
     justify-content: space-around;
+    margin-right: 0.5rem;
 }
 .mail{
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .mails{
     display: flex;
@@ -126,7 +128,6 @@ html{
 }
 img{
     width: 100%;
-    height: 72vh;
     background-size: cover;
 }
 
@@ -147,9 +148,9 @@ img{
     background-color: blueviolet;
     padding: 1rem;
     width: 25%;
+    color: white;
     height: 70px;
 }
-
 .feature-content{
     display: flex;
     flex-direction: column;
@@ -390,6 +391,9 @@ img{
     }
     .working-hours{
         height: 70vh;
+    }
+    main img{
+        height: 50vh;
     }
     .active{
         display: block;
